@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    width: 40%;
+    height: 100vh;
+    background: skyblue;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.box{
+    width: 70%;
+    height: 550px;
+    background: skyblue;
+    box-shadow: -7px -2px 20px 0px rgb(133 131 131);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-1{
+    width: 60%;
+    height: 100vh;  
+    display: flex;
+    align-items: center;
+}
+.box-1{
+    width: 80%;
+    height: 550px;
+    box-shadow: 9px 1px 20px 0px rgb(133 131 131);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic-info{
+    width: 50%;
+    height: 250px;
+    text-align: center;
+}
+.pic{
+    width: 100%;
+    height: 150px;
+}
+.pic img{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.input{
+    width: 80%;
+    height: 400px;
+}
+.login{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.input h3{
+    margin-bottom: 5px;
+}
+.input input{
+    margin-bottom: 20px;
+    width: 98%;
+    height: 35px;
+    padding: 5px;   
+}
+.forgot{
+    width: 100%;
+    height: 40px;
+    text-align: end;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background: skyblue;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+}
+@media screen {
+    
+}@media screen and (max-width: 704px) and (min-width: 490px) {
+   .box{
+    height: 450px;
+   }
+   .box-1{
+    height: 450px;
+   }
+   .pic-info h1{
+    font-size: 22px;
+   }
+   .pic-info h4{
+    font-size: 14px;
+   }
+   .input input{
+    width: 95%;
+   }
+   
+}
+
+
+@media screen and (max-width: 1060px) and (min-width: 704px) {
+   .pic-info h1{
+    font-size: 24px;
+   }
+   .input input{
+    width: 95%;
+   }
+   button{
+    border: none;
+   }
+}
